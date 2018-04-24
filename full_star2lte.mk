@@ -16,3 +16,19 @@ PRODUCT_MODEL := SM-G965F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# TUB stuff
+TARGET_GAPPS_ARCH := arm64
+TARGET_DENSITY := xxhdpi
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1440
+
+# VendorDevice identifier.
+PRODUCT_PROPERTY_OVERRIDES := \
+ro.vendor.product.manufacturer=samsung \
+ro.vendor.product.model=SM-G965F \
+ro.vendor.product.brand=samsung \
+ro.vendor.product.name=tub_star2lte \
+ro.vendor.product.device=star2lte
+
