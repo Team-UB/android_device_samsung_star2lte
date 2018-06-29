@@ -1,0 +1,7 @@
+[
+    {
+        "repository": "abun880007/android_device_samsung_star-common",
+        "target_path": "device/samsung/star-common",
+        "branch": "TUB-Oreo"
+    }
+]

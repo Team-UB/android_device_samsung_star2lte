@@ -11,7 +11,7 @@ $(call inherit-product, device/samsung/star2lte/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := star2lte
-PRODUCT_NAME := full_star2lte
+PRODUCT_NAME := tub_star2lte
 PRODUCT_MODEL := SM-G965F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
@@ -22,7 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 ro.vendor.product.manufacturer=samsung \
 ro.vendor.product.model=SM-G965F \
 ro.vendor.product.brand=samsung \
-ro.vendor.product.name=aosp_star2lte \
+ro.vendor.product.name=tub_star2lte \
 ro.vendor.product.device=star2lte
 
 # Include Bootanimation configuration
