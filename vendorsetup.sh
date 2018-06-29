@@ -1,0 +1,1 @@
+add_lunch_combo tub_star2lte-userdebug
