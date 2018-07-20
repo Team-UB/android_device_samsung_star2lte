@@ -9,6 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/star2lte/device.mk)
 
+# Inherit gapps
+$(call inherit-product, device/samsung/star2lte/gapps.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := star2lte
 PRODUCT_NAME := tub_star2lte
