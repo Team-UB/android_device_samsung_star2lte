@@ -8,9 +8,16 @@ TARGET_OTA_ASSERT_DEVICE := star2ltexx,star2lteks,star2lte
 
 # Kernel
 TARGET_KERNEL_CONFIG := exynos9810-star2lte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/universal9810
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Inherit common board flags
 include device/samsung/universal9810-common/BoardConfigCommon.mk
+
+# Use mke2fs to create ext4 images
+TARGET_USES_MKE2FS := true
+
+# Set default locale
+PRODUCT_LOCALES := en-GB
