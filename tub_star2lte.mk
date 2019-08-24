@@ -7,7 +7,9 @@ $(call inherit-product, device/samsung/star2lte/full_star2lte.mk)
 $(call inherit-product, vendor/tub/config/common.mk)
 $(call inherit-product, vendor/tub/config/common_full_phone.mk)
 
-PRODUCT_NAME := tub_star2lte
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+TARGET_VENDOR := samsung
 
 BUILD_FINGERPRINT := samsung/star2ltexx/star2lte:9/PPR1.180610.011/G965FXXU6CSGD:user/release-keys
 
